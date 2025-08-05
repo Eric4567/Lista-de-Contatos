@@ -1,0 +1,19 @@
+#Sidebar{
+    position: absolute;
+    right: 0px;
+    background-color: rgb(81, 185, 255);
+    width: 330px;
+    height: 700px;
+}
+ul{
+    list-style: none;
+}
+#element{
+    margin: 0;
+}
+#p-element{
+    margin: 0;
+}
+#button-element{
+    margin: 0;
+}

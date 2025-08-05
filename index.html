@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/input.css">
+    <link rel="stylesheet" href="Style/body.css">
+    <link rel="stylesheet" href="Style/nav.css">
+    <link rel="icon" type="image/x-icon" href="Phone.png">
+    <script src="code.js"></script>
+    <script src="clear.js"></script>
+    <title>Contatos</title>
+</head>
+<body onload="show()">
+<div>
+        <input id="Name" type="text" placeholder="Nome" required>
+        <input id="Phone" type="number" placeholder="Telefone" required>
+        <button id="Add" onclick="Add()">Adicionar</button>
+</div>
+<div>
+<button onclick="remove()">Remove</button>
+<button onclick="delet()">Delete</button>
+<button onclick="show()">Abrir Lista de Contatos</button>
+</div>
+<div>
+    <nav id="Sidebar">
+        <ul id="List">
+            <div></div>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
